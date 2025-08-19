@@ -6,6 +6,7 @@
 - Reached ~3.5% cross-entropy loss during pretraining; model currently supports next-token generation.
 - Planning to fine-tune the model for instruction-following and downstream task alignment.
 - Demo includes both short and long prompt generation samples.
+- Model is not finetuned to follow instructions yet. So that model response is next token generation output
 
 ### Params:
 - Max token=100 and 300
